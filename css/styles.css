@@ -19,19 +19,37 @@ body {
 .container {
   background-color: #a0dbdb;
   width: max-content;
-  height: 38em;
+  height: 32em;
   margin-top: 6em;
   border-radius: 1em;
   box-shadow: 10px 10px 5px lightslategray;
-  
-}
+  }
 
 #greeting {
   padding-top: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
+#ageInputs {
+  margin-top: 1em;
+}
+#seasonInput {
+  margin-top: 1em;
+}
+
+#weekDayInput {
+  margin-top: 1em;
+}
+
+#catsOrDogsInput {
+  margin-top: 1em;
+}
+
 
 #buttonContainer {
-  padding-top: 13em;
+  margin-top: 3em;
 
+}
+
+#cartWheelContainer {
+  margin-top: 1em;
 }
