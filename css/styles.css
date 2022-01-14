@@ -2,16 +2,29 @@
   display: block;
   margin-top: 5px;
   margin-left: 2em;
+  background-color: #ecbc55;
 }
 
-.hidden {
+/* .hidden {
   display: none;
-}
+} */
 
 #userInput {
-  margin-top: 3em;
+  
 }
 
 #result {
-margin-top: 10em;
+margin-top: 20em;
 }
+
+body {
+  background-color: #432c51;
+  color: #54a4af;
+}
+
+.container {
+  background-color: #535474;
+  margin-top: 5.5em;
+  
+}
+
