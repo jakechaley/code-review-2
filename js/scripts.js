@@ -27,6 +27,11 @@ const cartWheelScores = {
   no: 40
 }
 
+const language1 = 100;
+const language2 = 150;
+const language3 = 200;
+const language4 = 250;
+
 
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
