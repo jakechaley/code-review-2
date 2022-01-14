@@ -44,10 +44,49 @@ $(document).ready(function() {
 
     if (season === "autumn") {
       seasonScore = seasonScores.autumn
-      console.log(seasonScore)
+    } else if (season === "winter") {
+      seasonScore = seasonScores.winter
+    } else if (season === "spring") {
+      seasonScore = seasonScores.spring
+    } else if (season === "summer") {
+      seasonScore = seasonScores.summer
+    }
+    
+    if (weekDay === "monday") {
+      weekDayScore = weekDayScores.monday
+    } else if (weekDay === "tuesday") {
+      weekDayScore = weekDayScores.tuesday
+    } else if (weekDay === "wednesday") {
+      weekDayScore = weekDayScores.wednesday
+    } else if (weekDay === "thursday") {
+      weekDayScore = weekDayScores.thursday
+    }else if (weekDay === "friday") {
+      weekDayScore = weekDayScores.friday
+    }else if (weekDay === "saturday") {
+      weekDayScore = weekDayScores.saturday
+    } else if (weekDay === "sunday") {
+      weekDayScore = weekDayScores.sunday
     }
 
+    if (catsOrDogs === "cats") {
+      catsOrDogsScore = catsOrDogsScores.cats
+    } else if (catsOrDogs === "dogs") {
+      catsOrDogsScore = catsOrDogsScores.dogs
+    }
 
+    if (cartWheel === "yes") {
+      cartWheelScore = cartWheelScores.yes
+    } else if (cartWheel === "no") {
+      cartWheelScore = cartWheelScores.no
+    }
+
+    let finalScore = (ageScore + seasonScore + weekDayScore + catsOrDogsScore + cartWheelScore)
+    
+    
+    
+    
+    
     event.preventDefault();
+    console.log(finalScore)
   });
 });
