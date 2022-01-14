@@ -30,7 +30,7 @@ const cartWheelScores = {
 
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
-    // $("#char1, #char2, #char3, #char4, #char5").hide();
+  $("#language1, #language2, #language3, #language4, #language5").hide();
     const ageScore = parseInt($("input#age").val());
     const season = $("select#season").val();
     const weekDay = $("select#weekDay").val();
@@ -82,7 +82,17 @@ $(document).ready(function() {
 
     let finalScore = (ageScore + seasonScore + weekDayScore + catsOrDogsScore + cartWheelScore)
     
-    
+    if (finalScore <= language1) {
+      $("#language1").show();
+    } else if (finalScore <= language2) {
+      $("#language2").show();
+    } else if (finalScore <= language3) {
+      $("#language3").show();
+    } else if (finalScore <= language4) {
+      $("#language4").show();
+    } else {
+      $("#language5").show();
+      }
     
     
     

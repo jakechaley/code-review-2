@@ -5,13 +5,11 @@
   background-color: #ecbc55;
 }
 
-/* .hidden {
+.hidden {
   display: none;
-} */
-
-#userInput {
-  
 }
+
+
 
 #result {
 margin-top: 20em;
