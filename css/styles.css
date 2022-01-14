@@ -1,7 +1,6 @@
 .btn {
   display: block;
-  margin-top: 5px;
-  margin-left: 2em;
+  
   background-color: #ecbc55;
 }
 
@@ -9,6 +8,7 @@
   display: none;
 }
 
+.dark-m
 
 
 #result {
@@ -16,13 +16,15 @@ margin-top: 20em;
 }
 
 body {
-  background-color: #432c51;
-  color: #54a4af;
+  background-color: #f9fbfc;
+  color: black;
 }
 
 .container {
-  background-color: #535474;
-  margin-top: 5.5em;
+  background-color: #a0dbdb;
+  width: max-content;
+  height: 38em;
+  margin-top: 6em;
   
 }
 
