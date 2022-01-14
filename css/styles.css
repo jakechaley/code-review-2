@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  margin-top: 5px;
+  margin-left: 2em;
+}
+
+.hidden {
+  display: none;
+}
+
+#userInput {
+  margin-top: 3em;
+}
+
+#result {
+margin-top: 10em;
+}
