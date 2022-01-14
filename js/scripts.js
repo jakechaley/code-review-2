@@ -36,7 +36,7 @@ const language4 = 250;
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
   $("#language1, #language2, #language3, #language4, #language5").hide();
-    const ageScore = parseInt($("input#age").val());
+  $("#photo5").hide();
     const season = $("select#season").val();
     const weekDay = $("select#weekDay").val();
     const catsOrDogs = $("select#catsOrDogs").val();
