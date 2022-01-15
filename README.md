@@ -21,7 +21,7 @@ _This webpage is meant to help decide which programming language to use Simply e
 ## Setup/Installation Requirements
 
 - _Live Site: https://jakechaley.github.io/code-review-2_
-- _To contribute, clone repo from: https://github.com/jakechaley/code-review-_
+- _To contribute, clone repo from: https://github.com/jakechaley/code-review-2_
 
 _Want to contribute? Great!_
 
