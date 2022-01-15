@@ -35,18 +35,18 @@ const language4 = 250;
 
 $(document).ready(function() {
   $("form#userInput").submit(function(event) {
-  $("#language1, #language2, #language3, #language4, #language5").hide();
-  $("#photo5").hide();
+    $("#language1, #language2, #language3, #language4, #language5").hide();
+    const ageScore = parseInt($("input#age").val());
     const season = $("select#season").val();
     const weekDay = $("select#weekDay").val();
     const catsOrDogs = $("select#catsOrDogs").val();
     const cartWheel = $("select#cartWheel").val();
-
+    
     let seasonScore = 0
     let weekDayScore = 0
     let catsOrDogsScore = 0
     let cartWheelScore = 0
-
+    
     if (season === "autumn") {
       seasonScore = seasonScores.autumn
     } else if (season === "winter") {
@@ -72,19 +72,19 @@ $(document).ready(function() {
     } else if (weekDay === "sunday") {
       weekDayScore = weekDayScores.sunday
     }
-
+    
     if (catsOrDogs === "cats") {
       catsOrDogsScore = catsOrDogsScores.cats
     } else if (catsOrDogs === "dogs") {
       catsOrDogsScore = catsOrDogsScores.dogs
     }
-
+    
     if (cartWheel === "yes") {
       cartWheelScore = cartWheelScores.yes
     } else if (cartWheel === "no") {
       cartWheelScore = cartWheelScores.no
     }
-
+    
     let finalScore = (ageScore + seasonScore + weekDayScore + catsOrDogsScore + cartWheelScore)
     
     if (finalScore <= language1) {
@@ -97,7 +97,8 @@ $(document).ready(function() {
       $("#language4").show();
     } else {
       $("#language5").show();
-      }
+    }
+    
     
     
     
