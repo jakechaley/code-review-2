@@ -22,6 +22,9 @@ _This webpage is meant to help decide which programming language to use Simply e
 
 - _Live Site: https://jakechaley.github.io/code-review-2_
 - _To contribute, clone repo from: https://github.com/jakechaley/code-review-2_
+- _Clone Repository to your desktop._
+- _Navigate to the top level of the directory._
+- _Open index.html in web browser to view site._
 
 _Want to contribute? Great!_
 

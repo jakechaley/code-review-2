@@ -6,9 +6,8 @@
   display: none;
 }
 
-
 #result {
-padding-top: 1em;
+  padding-top: 1em;
 }
 
 body {
@@ -25,16 +24,18 @@ body {
   box-shadow: 10px 10px 5px lightslategray;
   font-family: 'Permanent Marker', cursive;
   font-family: 'Roboto Mono', monospace;
-  }
+}
 
 #greeting {
   padding-top: 10px;
   font-family: 'Permanent Marker', cursive;
-font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', monospace;
 }
+
 #ageInputs {
   margin-top: 1em;
 }
+
 #seasonInput {
   margin-top: 1em;
 }
@@ -47,10 +48,8 @@ font-family: 'Roboto Mono', monospace;
   margin-top: 1em;
 }
 
-
 #buttonContainer {
   margin-top: 3em;
-
 }
 
 #cartWheelContainer {
