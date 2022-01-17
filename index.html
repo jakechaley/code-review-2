@@ -15,69 +15,67 @@
 </head>
 <body>
   <div class="container">
-      <div id="greeting">
-        <h1>Choosing a programming language can be tricky...</h1>
-        <h3>Answer a few questions and let us pick for you!</h3>
-      </div>
-      <div id="quizContent">
-        <form id="userInput">
-          <div id= "ageInputs">
-            <label for="age">Age</label>
-            <input type="text" id="age" required="true">
-          </div>
-          <div id="seasonInput">
-            <label for="season">Favorite Season</label>
-            <select id="season">
-              <option value="autumn">Autumn</option>
-              <option value="winter">Winter</option>
-              <option value="spring">Spring</option>
-              <option value="summer">Summer</option>
-            </select>
-          </div>
-          <div id="weekDayInput">
-            <label for="weekDay">Favirite day of the week</label>
-            <select id="weekDay">
-              <option value="monday">Monday</option>
-              <option value="tuesday">Tuesday</option>
-              <option value="wednesday">Wednesday</option>
-              <option value="thursday">Thursday</option>
-              <option value="friday">Friday</option>
-              <option value="saturday">Saturday</option>
-              <option value="sunday">Sunday</option>
-            </select>
-          </div>
-          <div id="catsOrDogsInput">
-            <label for="catsOrDogs">Do you prefer cats or dogs?</label>
-            <select id="catsOrDogs">
-              <option value="cats">Cats</option>
-              <option value="dogs">Dogs</option>
-            </select>
-          </div>
-          <div id="cartWheelContainer">
-            <label for="cartWheel">Can you do a cartwheel?</label>
-            <select id="cartWheel">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <div id="buttonContainer">
-            <button class="btn btn-warning">Tell Me My Language</button>
-          </div>
-        </form>
-      </div>
-      
-      <div id="result">
-        <h2>We think you would like programming in:</h2>
-        <h4>
-          <span class="hidden" id="language5">JavaScript</span> 
-          <span class="hidden" id="language4">Python</span>
-          <span class="hidden" id="language3">Java</span>
-          <span class="hidden" id="language2">C#</span>
-          <span class="hidden" id="language1">Swift</span>
-          <h4>
-            
-          </div>
-          
+    <div id="greeting">
+      <h1>Choosing a programming language can be tricky...</h1>
+      <h3>Answer a few questions and let us pick for you!</h3>
+    </div>
+    <div id="quizContent">
+      <form id="userInput">
+        <div id= "ageInputs">
+          <label for="age">Age</label>
+          <input type="text" id="age" required="true">
         </div>
-      </body>
-      </html>
+        <div id="seasonInput">
+          <label for="season">Favorite Season</label>
+          <select id="season">
+            <option value="autumn">Autumn</option>
+            <option value="winter">Winter</option>
+            <option value="spring">Spring</option>
+            <option value="summer">Summer</option>
+          </select>
+        </div>
+        <div id="weekDayInput">
+          <label for="weekDay">Favorite day of the week</label>
+          <select id="weekDay">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+          </select>
+        </div>
+        <div id="catsOrDogsInput">
+          <label for="catsOrDogs">Do you prefer cats or dogs?</label>
+          <select id="catsOrDogs">
+            <option value="cats">Cats</option>
+            <option value="dogs">Dogs</option>
+          </select>
+        </div>
+        <div id="cartWheelContainer">
+          <label for="cartWheel">Can you do a cartwheel?</label>
+          <select id="cartWheel">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
+        <div id="buttonContainer">
+          <button class="btn btn-warning">Tell Me My Language</button>
+        </div>
+      </form>
+    </div>
+      
+    <div id="result">
+      <h2 id="result-header" class="hidden">We think you would like programming in:</h2>
+      <h4> 
+        <span class="hidden" id="language5">JavaScript</span> 
+        <span class="hidden" id="language4">Python</span>
+        <span class="hidden" id="language3">Java</span>
+        <span class="hidden" id="language2">C#</span>
+        <span class="hidden" id="language1">Swift</span>
+      <h4>
+    </div>
+  </div>
+</body>
+</html>
