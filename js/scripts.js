@@ -50,7 +50,7 @@ $(document).ready(function() {
       seasonScore = seasonScores.winter;
     } else if (season === "spring") {
       seasonScore = seasonScores.spring;
-    } else if (season === "summer") {
+    } else {
       seasonScore = seasonScores.summer;
     }
     
@@ -66,19 +66,19 @@ $(document).ready(function() {
       weekDayScore = weekDayScores.friday;
     } else if (weekDay === "saturday") {
       weekDayScore = weekDayScores.saturday;
-    } else if (weekDay === "sunday") {
+    } else {
       weekDayScore = weekDayScores.sunday;
     }
     
     if (catsOrDogs === "cats") {
       catsOrDogsScore = catsOrDogsScores.cats;
-    } else if (catsOrDogs === "dogs") {
+    } else {
       catsOrDogsScore = catsOrDogsScores.dogs;
     }
     
     if (cartWheel === "yes") {
       cartWheelScore = cartWheelScores.yes;
-    } else if (cartWheel === "no") {
+    } else {
       cartWheelScore = cartWheelScores.no;
     }
     
